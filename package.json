@@ -1,0 +1,37 @@
+{
+  "name": "connerify",
+  "version": "1.0.0",
+  "main": "index",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-mocha": "^0.2.2",
+    "mocha": "^2.4.5"
+  },
+  "description": "Translates words to sean connery style phonetical spelling",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qubitdigital/connerify.git"
+  },
+  "keywords": [
+    "seanconnery"
+  ],
+  "author": {
+    "name": "Alan Clarke",
+    "email": "alan@qubit.com",
+    "url": "qubit.com"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/qubitdigital/connerify/issues"
+  },
+  "homepage": "https://github.com/qubitdigital/connerify#readme"
+}
