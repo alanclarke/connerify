@@ -4,4 +4,5 @@ module.exports = function connerify (word) {
     .replace(/(s)$/gi, '$1h')
     .replace(/(x)([^\ss])/gi, '$1sh$2')
     .replace(/ce/gi, 'sh')
+    .replace(/ci/gi, 'shi')
 }

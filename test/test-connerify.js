@@ -15,6 +15,10 @@ describe('connerify', function () {
     expect('flounce', 'flounsh')
     expect('experience', 'exshperiensh')
   })
+  it('ci', function () {
+    expect('citizen', 'shitizen')
+    expect('medicine', 'medishine')
+  })
 })
 
 function expect (val, expected) {
