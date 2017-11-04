@@ -21,7 +21,8 @@ describe('connerify', function () {
     [ 'medicine', 'medishine' ],
     [ 'pretzel', 'pretchel' ],
     [ 'https://example.com', 'https://example.com' ],
-    [ '@username', '@username' ]
+    [ '@username', '@username' ],
+    [ '#hashtag', '#hashtag' ]
   ]
 
   tests.map(expect)

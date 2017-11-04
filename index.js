@@ -2,7 +2,7 @@ module.exports = function connerify (word) {
   var ignore = []
 
   return word
-    .replace(/(https?:\/\/[^\s]+)|(@\w+)/gi, stack)
+    .replace(/(https?:\/\/[^\s]+)|(@\w+)|(#\w+)/gi, stack)
     .replace(/(s)([^sh])/g, '$1h$2')
     .replace(/(S)([^SH])/g, '$1H$2')
     .replace(/(s)$/g, '$1h')
