@@ -20,7 +20,8 @@ describe('connerify', function () {
     [ 'citizen', 'shitizen' ],
     [ 'medicine', 'medishine' ],
     [ 'pretzel', 'pretchel' ],
-    [ 'https://example.com', 'https://example.com' ]
+    [ 'https://example.com', 'https://example.com' ],
+    [ '@username', '@username' ]
   ]
 
   tests.map(expect)

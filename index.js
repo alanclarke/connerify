@@ -1,8 +1,8 @@
 module.exports = function connerify (word) {
-  var urls = []
+  var ignore = []
 
   return word
-    .replace(/https?:\/\/[^\s]+/gi, stack)
+    .replace(/(https?:\/\/[^\s]+)|(@\w+)/gi, stack)
     .replace(/(s)([^sh])/g, '$1h$2')
     .replace(/(S)([^SH])/g, '$1H$2')
     .replace(/(s)$/g, '$1h')
@@ -17,12 +17,12 @@ module.exports = function connerify (word) {
     .replace(/TZ/g, 'TCH')
     .replace(/{{\d+}}/g, unstack)
 
-  function stack (url) {
-    urls.push(url)
-    return '{{' + urls.length + '}}'
+  function stack (thing) {
+    ignore.push(thing)
+    return '{{' + ignore.length + '}}'
   }
 
   function unstack (thing) {
-    return urls.shift()
+    return ignore.shift()
   }
 }
