@@ -20,6 +20,7 @@ describe('connerify', function () {
     [ 'citizen', 'shitizen' ],
     [ 'medicine', 'medishine' ],
     [ 'pretzel', 'pretchel' ],
+    [ 'Segments', 'Shegmentsh' ],
     [ 'https://example.com', 'https://example.com' ],
     [ '@username', '@username' ],
     [ '#hashtag', '#hashtag' ]

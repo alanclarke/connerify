@@ -15,7 +15,12 @@ module.exports = function connerify (word) {
     .replace(/CI/g, 'SHI')
     .replace(/tz/g, 'tch')
     .replace(/TZ/g, 'TCH')
+    .replace(/(^|\s)([A-Z])([A-Z])([a-z])/g, casing)
     .replace(/{{\d+}}/g, unstack)
+
+  function casing (all, space, start, middle, next) {
+    return space + start + middle.toLowerCase() + next
+  }
 
   function stack (thing) {
     ignore.push(thing)
