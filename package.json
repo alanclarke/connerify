@@ -23,11 +23,7 @@
   "keywords": [
     "seanconnery"
   ],
-  "author": {
-    "name": "Alan Clarke",
-    "email": "alan@qubit.com",
-    "url": "qubit.com"
-  },
+  "author": "Alan Clarke <code@alz.io> (alz.io)",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/qubitdigital/connerify/issues"
